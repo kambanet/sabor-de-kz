@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="logo">
+            <a href="#hero">SABOR DE KZ</a>
+        </h1>
+
+        <menu>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#"></a>
+            <button class="btnw">Agendar</button>
+        </menu>
+
+        
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="inf">
+                <h1>
+                    SABOR DE KZ
+                </h1>
+
+                <p>
+                    Comida de casa, sabor de Angola
+                </p>
+            </div>
+
+            <div class="btn">
+                <button class="cardap">Ver Cardápio</button>
+                <button class="btnw">Pedir no WhatsApp <img src="foto/what.svg" alt=""></button>
+            </div>
+        </section>
+
+        <aside id="prato-dia" class="-conteudo-corpo">
+            <h1>
+                Prato do dia
+            </h1>
+            <div id="prato">
+                <div class="foto">
+                    <img src="foto/tteokbokki.jpg" alt="">
+                </div>
+                <div class="descricao">
+                    <div class="nome">
+                        <h3>Macarram oriental estilo Angolano</h3>
+                    </div>
+                    <div class="preco">
+                        7.000kz
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <button>Agentar</button>
+            </div>
+        </aside>
+
+        <section id="sobre" class="-conteudo-corpo">
+            <h1>
+                Sobre a Sabor de kz
+            </h1>
+            <div class="desc">
+                <div>
+                    <button>Falar no WhatsApp <img src="foto/what.svg" alt=""></button>
+                </div>
+                <div class="foto">
+                    <img src="foto/dona.webp" alt="">
+                </div>
+                <div class="inf">
+                    <p>Lúcia, 50 anos. Dona do restaurante de comida angolana no Benfica há 8 anos. Fica cheio no almoço. Ela zela pela calma e silêncio, gosta de cozinhar desde criaça e sente que realizou seu sonho - "Sonhos não têm todos que ser coisas estravagantes, desde que não morras antes de realiza-los tu és um vencedor..." essa é a filosofia de vida dela. Hoje em dia ela, é uma empreendedora com vários estabelecimentos espalhados pela provínca. Boa comida para o corpo, boa experiência para a alma.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cardapio" class="-conteudo-corpo">
+            <h1>
+                Cardápio
+            </h1>
+
+            <div class="filtros">
+                <button class="ativo" data-filtro="todos">Todos</button>
+                <button data-filtro="entradas">Entradas</button>
+                <button data-filtro="principais">Pratos Principais</button>
+                <button data-filtro="bebidas">Bebidas</button>
+                <button data-filtro="sobremesas">Sobremesas</button>
+            </div>
+              
+            <article class="galeria">
+                <div class="item" data-category="sobremesas">
+                    <div class="foto">
+                        <img src="foto/mfrigatto-biscoito.jpg" alt="tteokbokki">
+                    </div>
+                    <div class="titulo">
+                        mfrigatto-biscoito => Oferta da casa para clientes frequêntes
+                    </div>
+                    <div class="pratos">
+                        <p>0.00kz</p> <span class="promo">Grátiz</span>
+                    </div>
+                </div>
+
+                <div class="item" data-category="sobremesas">
+                    <div class="foto">
+                        <img src="foto/vilmarcoelho-food.jpg" alt="tteokbokki">
+                    </div>
+                    <div class="titulo">
+                        vilmarcoelho-food
+                    </div>
+                    <div class="pratos">
+                        <p>490kz</p> <span class="promo">20<span class="-rodar-porcent">%</span> Desconto</span>
+                    </div>
+                </div>
+
+                <div class="item" data-category="entradas">
+                    <div class="foto">
+                        <img src="foto/cheeseburger.jpg" alt="cheeseburger">
+                    </div>
+                    <div class="titulo">
+                        cheeseburger
+                    </div>
+                    <div class="pratos">
+                        <p>4.500kz</p> <span class="promo">20<span class="-rodar-porcent">%</span>Desconto</span>
+                    </div>
+                </div>
+
+                <div class="item" data-category="principais">
+                    <div class="foto">
+                        <img src="foto/jjolmyeon.jpg" alt="jjolmyeon">
+                    </div>
+                    <div class="titulo">
+                        jjolmyeon
+                    </div>
+                    <div class="pratos">
+                        <p>2.500kz</p>  <span class="promo">20 <span class="-rodar-porcent">%</span> Desconto</span>
+                    </div>
+                </div>
+
+                <div class="item" data-category="entradas">
+                    <div class="foto">
+                        <img src="foto/hamburger.jpg" alt="hamburger">
+                    </div>
+                    <div class="titulo">
+                        hamburger
+                    </div>
+                    <div class="pratos">
+                        <p>2.000kz</p> <span class="promo">20 <span class="-rodar-porcent">%</span> Desconto</span>
+                    </div>
+                </div>
+                
+                <button class="btn-entrega"><p>Encomendar já</p><img src="foto/entrega.svg" alt=""></button>
+
+                <div class="item" data-category="bebidas">
+                    <div class="foto">
+                        <img src="foto/filter-coffee.jpg" alt="tteokbokki">
+                    </div>
+                    <div class="titulo">
+                        filter-coffee
+                    </div>
+                    <div class="pratos">
+                        <p>1.390kz</p> <span class="promo">20<span class="-rodar-porcent">%</span> Desconto</span>
+                    </div>
+                </div>
+
+                <div class="item" data-category="principais">
+                    <div class="foto">
+                        <img src="foto/istockphoto.webp" alt="tteokbokki">
+                    </div>
+                    <div class="titulo">
+                        Pequeno almoço completo
+                    </div>
+                    <div class="pratos">
+                        <p>8.990kz</p> <span class="promo">20<span class="-rodar-porcent">%</span> Desconto</span>
+                    </div>
+                </div>
+
+                <div class="item" data-category="principais">
+                    <div class="foto">
+                        <img src="foto/pexels-pexels-user.jpg" alt="tteokbokki">
+                    </div>
+                    <div class="titulo">
+                        pexels-pexels
+                    </div>
+                    <div class="pratos">
+                        <p>3.350kz</p> <span class="promo">20 <span class="-rodar-porcent">%</span> Desconto</span>
+                    </div>
+                </div>
+
+                <div class="item" data-category="principais">
+                    <div class="foto">
+                        <img src="foto/tteokbokki.jpg" alt="tteokbokki">
+                    </div>
+                    <div class="titulo">
+                        tteokbokki
+                    </div>
+                    <div class="pratos">
+                        <p>3.350kz</p> <span class="promo">20 <span class="-rodar-porcent">%</span> Desconto</span>
+                    </div>
+                </div>
+
+                <div class="item" data-category="entradas">
+                    <div class="foto">
+                        <img src="foto/pexels-oceanofstars.jpg" alt="tteokbokki">
+                    </div>
+                    <div class="titulo">
+                        oceanofstars
+                    </div>
+                    <div class="pratos">
+                        <p>2.150kz</p> <span class="promo">20 <span class="-rodar-porcent">%</span> Desconto</span>
+                    </div>
+                </div>
+                
+                <button class="btn-entrega"><p>Encomendar já</p> <img src="foto/entrega.svg" alt=""></button>
+
+                <div class="item" data-category="principais" data-category="entradas">
+                    <div class="foto">
+                        <img src="foto/wow_pho-food.jpg" alt="tteokbokki">
+                    </div>
+                    <div class="titulo">
+                        wow_pho-food
+                    </div>
+                    <div class="pratos">
+                        <p>4.820kz</p> <span class="promo">20 <span class="-rodar-porcent">%</span> Desconto</span>
+                    </div>
+                </div>
+
+                <div class="item" data-category="entradas">
+                    <div class="foto">
+                        <img src="foto/pexels-ivo-brasil.jpg" alt="tteokbokki">
+                    </div>
+                    <div class="titulo">
+                        pexels-ivo-brasil
+                    </div>
+                    <div class="pratos">
+                        <p>4.820kz</p> <span class="promo">20 <span class="-rodar-porcent">%</span> Desconto</span>
+                    </div>
+                </div>
+
+                <div class="item" data-category="bebidas">
+                    <div class="foto">
+                        <img src="foto/coffee.jpg" alt="tteokbokki">
+                    </div>
+                    <div class="titulo">
+                        coffee
+                    </div>
+                    <div class="pratos">
+                        <p>9.720kz</p> <span class="promo">20<span class="-rodar-porcent">%</span> Desconto</span>
+                    </div>
+                </div>
+
+                <div class="item" data-category="sobremesas">
+                    <div class="foto">
+                        <img src="foto/jakob-tros.jpg" alt="jakob-tros">
+                    </div>
+                    <div class="titulo">
+                        jakob-tros
+                    </div>
+                    <div class="pratos">
+                        <p>1.470kz</p> <span class="promo">20<span class="-rodar-porcent">%</span> Desconto</span>
+                    </div>
+                </div>
+
+                <div class="item" data-category="principais">
+                    <div class="foto">
+                        <img src="foto/pexels-rachel-claire.jpg" alt="pexels-rachel-claire">
+                    </div>
+                    <div class="titulo">
+                        rachel-claire
+                    </div>
+                    <div class="pratos">
+                        <p>2.690kz</p> <span class="promo">20<span class="-rodar-porcent">%</span> Desconto</span>
+                    </div>
+                </div>
+
+            </article>
+
+            <button>Agentar</button>
+        </section>
+
+        <section id="depoimento" class="-conteudo-corpo">
+            <h1>Quem já esperimentou os nossos prátos</h1>
+
+            <div class="dep">
+                <h3>Marcelina J. Kyami</h3>
+                <p>"Como lá com os meus amigos e colegas de trabalho todas as quartas, quintas e finais de semana. O estabelecimento é calmo, limpo e o atendimento é muito bom. Gosto principalmente das ofertas de doces por conta da casa kkk. Recomendo de mais... Não avalio em estrelas mas sim em corações kkk"</p>
+
+                <img src="foto/depoimento.jpg" alt="A melhor lanchonete de Angola com os melhores preços e as melhores ofertas." class="dep-foto">
+
+                <span class="ocup">Advogada e Desntista</span>
+                <div class="aval">⭐⭐⭐⭐⭐</div>
+            </div>
+        </section>
+       
+        <section id="local" class="-conteudo-corpo">
+            <h1>Visitenos</h1>
+
+            <div class="com-local">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quis quo veritatis hic culpa, officia aliquid earum exercitationem dignissimos accusamus est odit doloremque voluptatem aspernatur nemo porro quam ea? Fugiat.</p>
+                
+                <div class="local-foto">
+                    <img src="foto/istockphoto (2).webp" alt="">
+                    <img src="foto/istockphoto3.webp" alt="">
+                </div>
+            </div>
+
+            
+        </section>
+    </main>
+
+    <footer>
+        <section id="rodape">
+
+            <article class="detalhes">
+                <h2>Onde nos encontra</h2>
+                <ul>
+                    <li><strong>Tel.:</strong> +244 9xx xxx xxx</li>
+                    <li><strong>E-mail:</strong> saborkz@gmail.com</li>
+                </ul>
+
+                <h3>Ter-Dom 11h às 22h</h3>
+            </article>
+
+            <article>
+                <h2>Também estamos em</h2>
+                <ul id="social">
+                    <il class="rede">
+                        <a href=""><img src="foto/facebook.svg" alt="facebook"> Facebook</a></a>
+                    </il>
+                    <il class="rede">
+                        <a href="#"><img src="foto/instagram.svg" alt="instagram"> Instagram</a>
+                    </il>
+                    <il class="rede">
+                        <a href="#"><img src="foto/whatsapp.svg" alt="whatsapp">Whatsapp</a>
+                    </il>
+                </ul>
+            </article>
+        </section>
+
+        <button id="flutuante"><img src="foto/whatsapp.svg" alt=""></button>
+
+        <p id="-rodape-fundo">
+            2026 | Criado e projetado por <em>&copy; <strong><a href="">Júnior Adolfo Noé</a></strong></em>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

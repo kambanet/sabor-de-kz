@@ -1,0 +1,31 @@
+*CLIENTE 02/10: DONA LÚCIA - RESTAURANTE "SABOR DE KZ"* #### *1. QUEM É O CLIENTE* Dona Lúcia, 50 anos. Dona do restaurante de comida angolana no Benfica há 8 anos. Fica cheio no almoço. Ela quer atrair mais gente no jantar e delivery.
+#### *2. BRIEFING COMPLETO*
+*Objetivo do Site:* Cliente ver o cardápio antes de ir e pedir delivery  
+*Páginas:* 1 página só  
+*Seções obrigatórias:*
+1.  *HERO*: Foto de uma moamba + Nome "SABOR DE KZ" + Frase "Comida de casa, sabor de Angola" + 2 Botões: "Ver Cardápio" e "Pedir no WhatsApp"
+2.  *SOBRE*: 2 colunas. Foto do restaurante + Texto da história dela
+3.  *CARDÁPIO*: Separado por abas/categorias: `Entradas` | `Pratos Principais` | `Bebidas` | `Sobremesas`  
+    Cada prato tem: `Foto pequena` | `Nome` | `Descrição curta` | `Preço`
+4.  *PRATO DO DIA*: 1 card grande em destaque. Muda todo dia. Ex: "Hoje: Calulu de Peixe - 4500 KZ"
+5.  *LOCALIZAÇÃO E HORÁRIO*: Mapa + Endereço Benfica + Horário: Ter-Dom 11h às 22h
+6.  *RODAPÉ*: Telefone, Instagram, Delivery
+
+#### *3. EXIGÊNCIAS DO CLIENTE*
+"Minha filha, as pessoas precisam ver a foto e o preço. E tem que ser fácil pra idoso mexer. O 'Prato do Dia' tem que aparecer primeiro de todos."
+*NÃO QUER:* Sistema de pagamento. Só WhatsApp pra pedido.
+
+#### *4. ORÇAMENTO E PRAZO*
+*Paga:* `120.000 KZ ~ 140 USD` - 50% pra começar  
+*Prazo:* 7 dias úteis  
+*Bônus:* Almoço grátis pra ti por 1 semana se entregar antes
+
+#### *5. DESAFIOS DE GRID PRA TU TREINAR AQUI*
+1.  *Sobre*: `1fr 1fr` - Texto e imagem lado a lado
+2.  *Cardápio*: Grid dentro de grid. Cada categoria é 1 grid. Dentro: `repeat(auto-fit, minmax(280px, 1fr))`
+3.  *Item do Cardápio*: `80px 1fr 100px` = Foto + Info + Preço
+4.  *Prato do Dia*: `grid-column: 1 / -1` pra ocupar tudo e ficar em destaque
+5.  *Responsivo*: No celular cardápio vira 1 coluna e foto fica em cima do texto
+
+#### *6. CONTEÚDO QUE ELA VAI TE MANDAR*
+15 fotos de pratos, lista de preços, texto sobre o restaurante, localização
